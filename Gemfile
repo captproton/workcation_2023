@@ -70,6 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+## Gems specific to this app
+# added by jumpstart
 gem "cssbundling-rails"
 gem "devise", "~> 4.8", ">= 4.8.0"
 gem "friendly_id", "~> 5.4"
@@ -86,3 +89,10 @@ gem "sidekiq", "~> 6.2"
 gem "sitemap_generator", "~> 6.1"
 gem "whenever", require: false
 gem "responders", github: "heartcombo/responders", branch: "main"
+
+# custom supporting gems
+# they can be modified locally after running git config
+gem "rent_the_room", github: "captproton/rent_the_room", branch: "develop"
+# gem "rent_the_room", github: "captproton/rent_the_room", branch: "main"
+
+# PLEASE BE TIDY, AND DO NOT ADD ANYTHING BELOW THIS LINE

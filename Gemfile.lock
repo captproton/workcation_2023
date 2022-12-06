@@ -1,4 +1,16 @@
 GIT
+  remote: https://github.com/captproton/rent_the_room.git
+  revision: a592dbca3b5d97a110614bef6ee7385e2ae4cbcf
+  branch: develop
+  specs:
+    rent_the_room (0.1.0)
+      cssbundling-rails
+      jsbundling-rails
+      rails (>= 7.0.4)
+      stimulus-rails
+      turbo-rails
+
+GIT
   remote: https://github.com/heartcombo/responders.git
   revision: 161f205b649489d740821425560eecd355fa02be
   branch: main
@@ -288,7 +300,7 @@ GEM
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
-    timeout (0.3.0)
+    timeout (0.3.1)
     turbo-rails (1.3.2)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
@@ -346,6 +358,7 @@ DEPENDENCIES
   pundit (~> 2.1)
   rails (~> 7.0.4)
   redis (~> 4.0)
+  rent_the_room!
   responders!
   selenium-webdriver
   sidekiq (~> 6.2)
